@@ -15,8 +15,6 @@ body{
 }
 
 
-
-
 nav{
     display: flex;
     justify-content: center;
@@ -60,7 +58,7 @@ main{
 .game{
     display: flex;
     flex-wrap: wrap;
-    width: 60vw;
+    width: 100vw;
     justify-content: center;
 }
 
@@ -74,9 +72,25 @@ main{
 }
 
 .mrbump{
-   transform: scale(0.5);
-    /* padding: 40px; */
-    padding: 1vw;
+    transform: scale(0.4);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    z-index: -2;
+}
+
+.moundOfGrass{
+    transform: scale(0.6);
+    /* background-color: aquamarine; */
+    position: relative;
+    right: 220px;
+}
 
 
+.field{
+    width: 200px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
