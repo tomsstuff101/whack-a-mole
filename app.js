@@ -2,8 +2,8 @@ const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 
-const test = document.querySelector('#test')
-const testJump = document.querySelector('#testJump')
+// const test = document.querySelector('#test')
+// const testJump = document.querySelector('#testJump')
 
 
 const mrBump = document.querySelectorAll('.mrbump')
@@ -28,7 +28,8 @@ mrBumpStuff = {
 
 const mainGame = () => { 
 
-    /**  */
+    /** Listen to MrBump being hit **/
+
 
     /**  keep jumping **/
     setInterval(()=>{
