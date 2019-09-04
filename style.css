@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap'); */
 
 
 html, body{
@@ -8,7 +9,8 @@ html, body{
 
 body{
     display: flex;
-    font-family: 'Bangers', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    /* font-family: 'Bangers', cursive; */
     background-color: #CDDC39;
     /* justify-content: center; */
     flex-direction: column;
@@ -63,7 +65,8 @@ main{
 }
 
 .info button{
-    font-family: 'Bangers', cursive;
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Luckiest Guy', cursive;
     font-weight: 400;
     font-size: 2em;
     letter-spacing: 0.5em;
@@ -78,7 +81,7 @@ main{
     position: relative;
     bottom: 300px;
     z-index: 0;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     /* transform-origin: bottom; */
 }

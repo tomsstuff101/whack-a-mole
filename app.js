@@ -4,9 +4,6 @@ const moles = document.querySelectorAll('.mole');
 
 const startGame = document.querySelector('#startGame')
 
-// const test = document.querySelector('#test')
-// const testJump = document.querySelector('#testJump')
-
 
 const mrBump = document.querySelectorAll('.mrbump')
 
@@ -41,30 +38,14 @@ counterStuff = {
 }
 
 
+
+
+const playGame = () => { 
     
-
-startGame.addEventListener('click', ()=>{
-    console.log('****game started *****')
-    startGame.style.backgroundColor = "orange"
-
-})
-
-
-
-
-const mainGame = () => { 
-
-    
-
-    
-    // inititialse
-
-
-    /** Listen to MrBump being hit **/
+   /** Listen for Mr Bump being hit */
     for(i=0; i<mrBump.length;i++){
         console.log(`mrBump[${i}] add hit listner`)
         mrBump[i].addEventListener("click", ()=>{
-            console.log('**** HIT ****')
             counterStuff.incCount()
             counterStuff.displayCount()
         })
@@ -74,23 +55,14 @@ const mainGame = () => {
     /**  keep jumping **/
     setInterval(()=>{
         mrBumpStuff.jumpBump(mrBumpStuff.randBump())
-    }, 4000);
+    }, 2000);
 }
 
 
-/*************  MAIN *******/
-mainGame()
 
-
-
-
-
-
-
-
-
-// test.addEventListener('click',()=>{
-//     console.log('test__')
-//     mrBumpStuff.jumpBump(mrBumpStuff.randBump())
-
-// })
+/**  Start game when start is clicked */
+startGame.addEventListener('click', ()=>{
+    console.log('****game started *****')
+    startGame.style.backgroundColor = "red"
+    playGame()
+})
