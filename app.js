@@ -6,15 +6,17 @@ const test = document.querySelector('#test')
 const testJump = document.querySelector('#testJump')
 
 
+const mrBump = document.getElementsByClassName('mrBump')
 
 
 
-
-
-
-
-test.addEventListener('click',()=>{
-    console.log('test__')
-    testJump.classList.toggle("jump")
-
+mrBump[0].addEventListener('click',()=>{
+    mrBump[0].toggle("jump")
 })
+
+
+// test.addEventListener('click',()=>{
+//     console.log('test__')
+//     testJump.classList.toggle("jump")
+
+// })
