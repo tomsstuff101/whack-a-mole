@@ -78,7 +78,7 @@ main{
     position: relative;
     bottom: 300px;
     z-index: -2;
-    animation-duration: 1s;
+    animation-duration: 0.9s;
     animation-iteration-count: 1;
     /* transform-origin: bottom; */
 }
