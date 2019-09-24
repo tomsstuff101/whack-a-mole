@@ -68,6 +68,7 @@ main{
     /* font-family: 'Bangers', cursive; */
     font-family: 'Luckiest Guy', cursive;
     font-weight: 400;
+    padding-top: 10px;
     font-size: 2em;
     letter-spacing: 0.5em;
     background-color: blueviolet;
