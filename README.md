@@ -3,7 +3,7 @@
 A simple game to develop javascript and CSS animation skills.
 
 <a href="https://tomsstuff101.github.io/whack-a-mole/">
-    <img src="https://github.com/tomsstuff101/whack-a-mole/blob/master/README-Images/Whackamole.png" width="90vw" height=auto>
+    <img src="https://github.com/tomsstuff101/whack-a-mole/blob/master/README-Images/Whackamole.png" width="1000px" height=auto>
 </a>
 
 Traditional DOM techniques were employed, with a class for making the 'Mr Bump' character added or removed to create the animation. This was added in a randomised way.
